@@ -1,0 +1,106 @@
+\documentclass[a4paper,12pt,openany,notitlepage]{report}
+
+\usepackage{titling}
+\usepackage[margin=0.75in,headsep=0.5in,footskip=0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\setlength{\parindent}{12pt}
+
+\newcommand{\subtitle}[1]{
+	\posttitle{
+		\par\end{center}
+		\begin{center}\large#1\end{center}
+		\vskip0.5em
+	}
+}
+
+\newcommand{\coverphoto}[2]{
+	\postdate{
+		\par\end{center}
+		\begin{center}
+			\includegraphics{#1} \\
+			#2
+		\end{center}
+	}
+}
+
+% To Change The Word Abstract
+\renewcommand{\abstractname}{Abstract}
+% Table of Contents Depth
+\setcounter{tocdepth}{2}
+% Stop sections being numbered
+\setcounter{secnumdepth}{0}
+
+% document
+
+\begin{document}
+
+% Title Page
+
+\title{Snack Machine}
+\subtitle{Action Plan}
+\author{Mitchell Pomery [BG3]}
+\coverphoto{images/mercato_vending_machine_5000}{UCC's Snack Machine}
+\maketitle
+%\begin{abstract}
+%\end{abstract}
+\pagenumbering{gobble}
+\clearpage
+\pagenumbering{arabic}
+
+%Table Of Contents
+
+\tableofcontents
+\clearpage
+
+% Introduction
+
+\section{Introduction}
+\paragraph\noindent
+Some of the chips on the circuit board, such as the driver, which is used only for columns 8 and 9 have become faulty due to age.
+While it is possible to replace ships when they die, the snack machine is a vital part of UCC's income and can affect the clubs ability to meet its goals if it is inoperable.
+This document outlines the plan to take the machine to the future and minimize the risk of it breaking.
+
+\subsection{History}
+\paragraph\noindent
+The snack machine is a 19XX Model XXXXX manufactured by Rowe International Inc.
+It originally came with a coin mechanism that was never implemented into the system.
+
+% Plan
+
+\section{Plan}
+\subsection{Snack Machine}
+\subsection{PLC}
+Similar to the coke machine, a PLC will be used to control the motors.
+
+\subsection{User Interface}
+A touch screen interface will be used to give users control of the machines and their accounts.
+It will be hooked up to an embedded device that communicates with the main dispense server (Merlo).
+
+\subsection{Coin Mechanism and Note Mechanism}
+A coin mechanism and Note Mechanism will be added underneath the user interface to allow users to easily add money to their accounts, and to allow non members to purchase drinks and snacks.
+They will be hooked up to the same machine as the touch screen and all processing will be done on it.
+
+\subsection{Dispense}
+The Dispense software will require modifications to allow the 
+
+\subsection{Lights}
+The hallway between UCC and UniSFA is dark even at the best of times, making seeing what is in the snack machine difficult.
+To help this, lights will be added similar to those in the coke machine.
+
+\subsection{Power}
+
+\section{Cost}
+
+\section{Timeline}
+
+% bibliography
+
+%\begin{thebibliography}{20} 
+%	\bibitem{} 
+%\end{thebibliography} 
+
+
+\end{document}

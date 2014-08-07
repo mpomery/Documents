@@ -1,0 +1,14 @@
+\contentsline {section}{Introduction}{2}
+\contentsline {paragraph}{\noindent }{2}
+\contentsline {subsection}{History}{2}
+\contentsline {paragraph}{\noindent }{2}
+\contentsline {section}{Plan}{2}
+\contentsline {subsection}{Snack Machine}{2}
+\contentsline {subsection}{PLC}{2}
+\contentsline {subsection}{User Interface}{2}
+\contentsline {subsection}{Coin Mechanism and Note Mechanism}{2}
+\contentsline {subsection}{Dispense}{2}
+\contentsline {subsection}{Lights}{2}
+\contentsline {subsection}{Power}{2}
+\contentsline {section}{Cost}{2}
+\contentsline {section}{Timeline}{2}
